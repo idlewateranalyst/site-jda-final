@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/loader.css" rel="stylesheet">
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", () => {
+            console.dir('là')
+            setTimeout(() => {
+                document.getElementById('overlay').style.opacity = 0;
+            }, 2500)
+        });
+    </script>
+    <link rel="icon" href="resources/favicon.ico">
+    <title>JDA</title>
+</head>
+<body>
+    <div class="video-loader" id="overlay">
+        <video autoplay muted class="loader">
+            <source src="resources/loader.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="w-100" id="landing">
+        <header>
+            <nav class="w-90">
+                <img id="header--logo" src="resources/logo_w.png" alt="jda-logo">
+                <ul>
+                    <li>
+                        <a class="header--links" href="index.html">Accueil</a>
+                        <a class="header--links" href="html/nos-formations.html">Nos formations</a>
+                        <a class="header--links" href="html/financement.html">Financement</a>
+                        <a class="header--links" href="#partenaires">Partenaires</a>
+                        <a class="header--links" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <a id="header--signup" href="html/inscription.html">Inscription</a>
+        <main>
+            <div>
+                <div class="w-90" id="landing--ctn">
+                    <section class="t-shadow" id="landing--ctnt">
+                        <h1 id="landing--title">JDA Formation</h1>
+                        <h1 id="landing--subtitle">By formapi</h1>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <a href="#slider">
+            <img class="anchor anchor-r" id="anchor-landing" src="resources/anchor_w.svg" alt="slide">
+        </a>
+    </div>
+    <div class="w-100" id="slider">
+        <div id="slide-1">
+            <a href="#slide-2">
+                <img class="anchor anchor-r" id="anchor-1" src="resources/anchor_w.svg" alt="right-slide">
+            </a>
+            <div class="w-70" id="slide-1-ctn">
+                <h1 id="slide-1--title">Présentation</h1>
+                <p id="slide-1--text">
+                    <br><br>JDA FORMATION fait partie de la grande famille JDA, et à ce titre a des relations privilégiées avec la SASP JDA BOURGOGNE DIJON et l’Association JDA DIJON BOURGOGNE.
+                    <br><br>JDA FORMATION BY FORMAPI présente sur DIJON depuis 1985, est une des 47 branches territoriales CFA hors mur FORMAPI (anciennement le CFA du sport), présent depuis plus de 25 ans et qui a pour vocation première la formation professionnelle des jeunes dans le domaine du sport, de l’animation et du tourisme. Nous accompagnons ainsi la professionnalisation des apprentis en pilotant l’ensemble des prestations de formation en apprentissage pour les métiers du sport.
+                    <br><br>Nous formons des animateurs, des entraineurs et des futurs employés, techniciens et responsables de structure (avec coloration sportive ou non) en apprentissage ou autres statuts.
+                    <br><br>Le directeur du centre : Sébastien ROLLET, entraineur BEE2, qui encadre et forme avec l’aide d’une équipe pédagogique constituées de spécialistes.
+                    <br><br>À raison d’une alternance mensuelle les apprenants bénéficient de d’enseignements théoriques et pratiques en parralèle de leur temps en structure.
+                    <br><br>A la rentrée 2022, ce sont près de 60 apprenants qui ont intégrés notre centre de formation. 
+                    <br><br>Nous choisissons pour chaque domaine d’activité des référents spécialistes du domaine. 
+                </p>
+            </div>
+        </div>
+        <div id="slide-2">
+            <a href="#slide-1">
+                <img class="anchor anchor-l" id="anchor-2" src="resources/anchor_w.svg" alt="left-slide">
+            </a>
+            <a href="#slide-3">
+                <img class="anchor anchor-r" id="anchor-3" src="resources/anchor_w.svg" alt="right-slide">
+            </a>
+            <div class="w-70" id="slide-2-ctn">
+                <h1 id="slide-2--title">Membres de l'équipe</h1>
+                <div class="team-members">
+                    <div class="team-card">
+                        <img class="img members--img" src="resources/member-1.png">
+                        <h2 class="member--firstname">Valérie</h2>
+                        <h2 class="member--lastname">Grosjean</h2>
+                        <h5 class="member--position">Présidente</h5>
+                    </div>
+                    <div class="team-card">
+                        <img class="img members--img" src="resources/member-2.png">
+                        <h2 class="member--firstname">Sébastien</h2>
+                        <h2 class="member--lastname">Rollet</h2>
+                        <h5 class="member--position">Directeur</h5>
+                    </div>
+                    <div class="team-card">
+                        <img class="img members--img" src="resources/member-3.png">
+                        <h2 class="member--firstname">Johanna</h2>
+                        <h2 class="member--lastname">Meunier</h2>
+                        <h5 class="member--position">Chargée de développement</h5>
+                    </div>
+                    <div class="team-card">
+                        <img class="img members--img" src="resources/member-4.png">
+                        <h2 class="member--firstname">Bérengere</h2>
+                        <h2 class="member--lastname">Clere</h2>
+                        <h5 class="member--position">Coordinatrice générale</h5>
+                    </div>
+                    <div class="team-card">
+                        <img class="img members--img" src="resources/member-5.png">
+                        <h2 class="member--firstname">Pierre</h2>
+                        <h2 class="member--lastname">Montagneux</h2>
+                        <h5 class="member--position">Coordinateur BJ JEPS AF</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="slide-3">
+            <a href="#slide-2">
+                <img class="anchor anchor-l" id="anchor-4" src="resources/anchor_w.svg" alt="left-slide">
+            </a>
+            <div class="w-50" id="slide-3-ctn">
+                <h1 id="slide-3--title">Chiffres clé</h1>
+                <div id="statistics">
+                    <div id="stats-row-1">
+                        <div id="stats-ctn-1">
+                            <p class="stats--number">78%</p>
+                            <p class="stats--text">Taux de réussite</p>
+                        </div>
+                        <div class="w-50" id="stats-graphs-ctn">
+                            <div id="stats-ctn-2">
+                                <div id="stats--graph-1">
+                                    <div id="stats--graph-fill-1"></div>
+                                </div>
+                                <p class="stats--text">Reçus</p>
+                            </div>
+                            <div id="stats-ctn-3">
+                                <div id="stats--graph-2">
+                                    <div id="stats--graph-fill-2"></div>
+                                </div>
+                                <p class="stats--text">Échecs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="stats-row-2">
+                        <div id="stats-ctn-4">
+                            <p class="stats--number">956</p>
+                            <p class="stats--text">Total des candidats</p>
+                        </div>
+                        <div id="stats-ctn-5">
+                            <p class="stats--number">747</p>
+                            <p class="stats--text">Nombre de candidats reçus</p>
+                        </div>
+                        <div id="stats-ctn-6">
+                            <p class="stats--number">209</p>
+                            <p class="stats--text">Candidats ayant échoué</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="w-100">
+        <div class="w-70" id="slider-footer">
+            <div id="partenaires">
+                <a href="#contact">
+                    <img class="anchor anchor-r" id="anchor-9" src="resources/anchor_w.svg" alt="right-slide">
+                </a>
+                <div class="w-70" id="slide-7-ctn">
+                    <h1 id="slide-7--title">Partenaires</h1>
+                    <div class="partners-ctn">
+                        <div class="partners-row">
+                            <img src="resources/partner-dfco.png">
+                            <img src="resources/partner-bluegreen.png">
+                            <img src="resources/partner-ffkmda.png">
+                            <img src="resources/partner-arcsurtille.png">
+                            <img src="resources/partner-norgesdijon.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 footer-infos-ctn" id="footer-infos-ctn-1">
+                    <h4 class="footer-infos">©2023 - JDA Formation</h4>
+                    <h4 class="footer-infos">18 Boulevard de l'Ouest 21000 Dijon</h4>
+                    <a class="footer-infos" href="html/legalnotice.html">Mentions légales & CGV</a>
+                </div>
+            </div>
+            <div id="contact">
+                <a href="#partenaires">
+                    <img class="anchor anchor-l" id="anchor-10" src="resources/anchor_w.svg" alt="left-slide">
+                </a>
+                <a href="#slide-9">
+                    <img class="anchor anchor-r" id="anchor-11" src="resources/anchor_w.svg" alt="right-slide">
+                </a>
+                <div class="w-70" id="slide-8-ctn">
+                    <h1 id="slide-8--title">Contact</h1>
+                    <div class="w-100 contact-ctn">
+                        <div class="w-80 contact-row">
+                            <div class="contact-infos">
+                                <img class="contact-img" src="resources/mail.svg">
+                                <p class="contact-value">meunier.jdaformation@gmail.com</p>
+                            </div>
+                            <div class="contact-infos">
+                                <img class="contact-img" src="resources/phone.svg">
+                                <p class="contact-value">0763877008</p>
+                            </div>
+                            <div class="contact-infos">
+                                <img class="contact-img" src="resources/adress.svg">
+                                <p class="contact-value">18 Boulevard de l'Ouest 21000 Dijon</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 footer-infos-ctn" id="footer-infos-ctn-2">
+                    <h4 class="footer-infos">©2023 - JDA Formation</h4>
+                    <h4 class="footer-infos">18 Boulevard de l'Ouest 21000 Dijon</h4>
+                    <a class="footer-infos" href="html/legalnotice.html">Mentions légales & CGV</a>
+                </div>
+            </div>
+            <div id="slide-9">
+                <a href="#contact">
+                    <img class="anchor anchor-l" id="anchor-12" src="resources/anchor_w.svg" alt="left-slide">
+                </a>
+                <div class="w-50" id="slide-9-ctn">
+                    <h1 id="slide-9--title">Réseaux sociaux</h1>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

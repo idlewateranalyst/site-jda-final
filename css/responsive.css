@@ -1,0 +1,14 @@
+@media screen and (max-width: 1920px) {
+  nav .header--links {
+    font-size: 1rem;
+    margin-left: 25px;
+  }
+
+  .footer-infos {
+    font-size: 1rem;
+  }
+
+  .contact-value {
+    font-size: 1rem;
+  }
+}
